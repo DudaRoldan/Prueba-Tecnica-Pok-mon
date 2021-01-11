@@ -1,0 +1,124 @@
+h1{
+  text-align: center;
+  font-size: 4rem;
+}
+
+h4{
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+p{
+  font-size: 1.45rem;
+}
+
+.button {
+    background-color: #F30805;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.pokedex{
+  display: flex;
+  justify-content: center;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #F30805;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.card {
+  margin-top: 24px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 400px;
+  background: #191919;
+  color: white;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.card img{
+  width: 400px;
+  height: 300px;
+  background: white;
+}
+
+.card:hover {
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.pokemons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 5px;
+}
+
+.ver{
+  background: #303030;
+  padding: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.mas{
+  background: #303030;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.ver:hover .mas{
+  max-height: 1000px;
+}
+
+.mas{
+  max-height: 0px;
+  overflow: hidden;
+  transition: all 1s;
+}
